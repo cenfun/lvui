@@ -61,6 +61,7 @@ export default {
         width: 9px;
         height: 9px;
         background-image: url(./popup-arrow.svg);
+        background-size: 54px 54px;
         background-repeat: no-repeat;
         z-index: 1;
     }

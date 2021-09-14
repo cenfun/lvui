@@ -1,49 +1,49 @@
 {
-  "name": "lithops-ui",
-  "version": "1.0.3",
-  "description": "lithops-ui",
-  "main": "dist/lithops-ui.js",
-  "sideEffects": false,
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "preview": "node ./scripts/preview.js",
-    "build": "npm run lint && npx webpack",
-    "lint": "npx eslint ./src && npx stylelint ./src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cenfun/lithops-ui.git"
-  },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/cenfun/lithops-ui/issues"
-  },
-  "homepage": "https://github.com/cenfun/lithops-ui#readme",
-  "dependencies": {
-    "vue": "^2.6.12"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@babel/preset-env": "^7.13.10",
-    "babel-loader": "^8.2.2",
-    "css-loader": "^5.1.3",
-    "eslint": "^7.22.0",
-    "eslint-plugin-chain": "^1.0.2",
-    "eslint-plugin-vue": "^7.7.0",
-    "file-loader": "^6.2.0",
-    "sass": "^1.32.8",
-    "sass-loader": "^11.0.1",
-    "style-loader": "^2.0.0",
-    "stylelint": "^13.12.0",
-    "stylelint-config-recommended": "^4.0.0",
-    "stylelint-config-standard": "^21.0.0",
-    "url-loader": "^4.1.1",
-    "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.6.12",
-    "webpack": "^5.27.0",
-    "webpack-cli": "^4.5.0",
-    "webpack-stats-report": "^1.1.8"
-  }
+    "name": "lithops-ui",
+    "version": "1.0.3",
+    "description": "lithops-ui",
+    "main": "dist/lithops-ui.js",
+    "sideEffects": false,
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "preview": "node ./scripts/preview.js",
+        "build": "npm run lint && npx webpack",
+        "lint": "npx eslint ./src && npx stylelint ./src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cenfun/lithops-ui.git"
+    },
+    "author": "",
+    "bugs": {
+        "url": "https://github.com/cenfun/lithops-ui/issues"
+    },
+    "homepage": "https://github.com/cenfun/lithops-ui#readme",
+    "dependencies": {
+        "vue": "^2.6.14"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.6",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^6.2.0",
+        "eslint": "^7.32.0",
+        "eslint-plugin-chain": "^1.0.4",
+        "eslint-plugin-vue": "^7.17.0",
+        "file-loader": "^6.2.0",
+        "sass": "^1.40.1",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.2.1",
+        "stylelint": "^13.13.1",
+        "stylelint-config-recommended": "^5.0.0",
+        "stylelint-config-standard": "^22.0.0",
+        "url-loader": "^4.1.1",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14",
+        "webpack": "^5.52.1",
+        "webpack-cli": "^4.8.0",
+        "webpack-stats-report": "^1.1.10"
+    }
 }
